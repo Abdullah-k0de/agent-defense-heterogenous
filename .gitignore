@@ -1,0 +1,31 @@
+# Environment & Python cache
+.env
+venv/
+.venv/
+venv-agent-defense/
+__pycache__/
+*.py[cod]
+*.tmp
+*_backup.json
+.pytest_cache/
+
+# OS & IDE artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Reports, manuscripts, and summaries
+*.md
+!README.md
+*.tex
+*.pdf
+*.docx
+*.xlsx
+
+# Generated figure outputs and paper manuscript files
+Phase 5/figures/
+Phase 5/figures_v2_clean/
+Phase 5/*
+!Phase 5/generate_clean_ieee_v2.py
+!Phase 5/generate_phase5_visualizations.py
